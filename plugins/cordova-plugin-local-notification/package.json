@@ -1,0 +1,79 @@
+{
+  "_from": "cordova-plugin-local-notification",
+  "_id": "cordova-plugin-local-notification@0.9.0-beta.1",
+  "_inBundle": false,
+  "_integrity": "sha512-nehEYUqEfdI1Eggebj6vrmgePBr0hWqcsuptAsZIHZLe/OsxVdKAUa0caPAg5wZ5fV5qNg0SP1GQVaQm984NeQ==",
+  "_location": "/cordova-plugin-local-notification",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-local-notification",
+    "name": "cordova-plugin-local-notification",
+    "escapedName": "cordova-plugin-local-notification",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-local-notification/-/cordova-plugin-local-notification-0.9.0-beta.1.tgz",
+  "_shasum": "06ac8cca12dd472f8972978664d4ff8c804461ac",
+  "_spec": "cordova-plugin-local-notification",
+  "_where": "F:\\OneDrive\\Feina\\4t-multimedia-UPC\\AWUG1\\c13\\notifications2",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-local-notifications/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-local-notification",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "Schedules and queries for local notifications",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=10.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=6.0.0"
+    }
+  ],
+  "homepage": "https://github.com/katzer/cordova-plugin-local-notifications#readme",
+  "keywords": [
+    "appplant",
+    "notification",
+    "local notification",
+    "user notification",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-local-notification",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
+  },
+  "version": "0.9.0-beta.1"
+}

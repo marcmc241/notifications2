@@ -1,0 +1,8 @@
+I didn't understand some parts of the assignement, so I tried to do my best.
+
+I created an app called MMCnotifications, changed the icon editing config.xml
+I created a left panel menu with three options: Event List, Add Event and Delete All.
+On initialization it creates a table in the db if it doesn't exist, and does a query to show all events in the event list table.
+The main page is event list, which selects all events from the database and shows them in a table whith an option to delete for each event (deletes from db and cancels notification).
+The second page is Add Event. You can select a date from date picker and add a description for the event, and the app adds the event to the db and programs it to show a notification in selected hour.
+The third button deletes all records form the database and cancels all notifications.

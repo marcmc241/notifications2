@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="themes/Blue.min.css">
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+        <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <title>MMC Notifications</title>
+<html>
+    <head>
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Notifications World</title>
+    </head>
+    <body>
+            
+        <div data-role="page" id="pageone">
+            <div data-role="panel" id="myPanel"> 
+            <h2>Events</h2>
+            <a href="#pageone" class="ui-btn ui-btn-inline" class="panbut" id="not">Event List</a>
+            <a href="#pagetwo" class="ui-btn ui-btn-inline" class="panbut" id="not2">Add Event</a>
+            <a href="#" onclick="delall();" class="ui-btn ui-btn-inline" class="panbut" id="not3">Delete All</a>
+          </div> 
+          <div data-role="header">
+            <h1>All Events</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <a href="#myPanel" class="ui-btn ui-btn-inline">Menu</a>
+            <p id="table">No appointments</p>
+          </div>
+
+          <div data-role="footer">
+            <h1>by Marc MC</h1>
+          </div> 
+           
+        </div>
+
+         <div data-role="page" id="pagetwo">
+             <div data-role="panel" id="myPanel"> 
+            <h2>Events</h2>
+            <a href="#pageone" class="ui-btn ui-btn-inline" class="panbut" id="not">Event List</a>
+            <a href="#pagetwo" class="ui-btn ui-btn-inline" class="panbut" id="not2">Add Event</a>
+            <a href="#" onclick="delall();" class="ui-btn ui-btn-inline" class="panbut" id="not3">Delete All</a>
+          </div>
+          <div data-role="header">
+            <h1>New Notification</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <a href="#myPanel" class="ui-btn ui-btn-inline">Menu</a>
+            <p>Enter date for new notification:</p>
+            <input type="datetime-local" name="datetime" id="datetime" min="2017-11-30T00:00" max="2019-12-30T16:30" required="true">
+            <input type="text" name="description" id="description" required="true" placeholder="Description">
+            <input type="submit" value="Add" id="add">
+
+          </div>
+
+          <div data-role="footer">
+            <h1>by Marc MC</h1>
+          </div> 
+        </div>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+    </body>
+</html>
